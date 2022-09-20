@@ -26,6 +26,9 @@
   .nav_container {
     background-color: #272a31;
   }
+  .menu {
+    display: none;
+  }
   .nav_container > ul {
     display: flex;
     flex-direction: row;
@@ -36,9 +39,16 @@
   }
   .nav-link1 {
     color: #fff;
+    text-decoration: none;
   }
   .nav-link2 {
     color: #272a31;
+    text-decoration: none;
+  }
+  .logo {
+    border: 2px solid #ec5242;
+    color: #ec5242;
+    padding: 0 5px;
   }
   .nav-links :hover {
     color: #fff;

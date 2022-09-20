@@ -33,6 +33,10 @@ $grey: #d3d3d3;
   background-color: $black;
 }
 
+.menu {
+  display: none;
+}
+
 .nav_container > ul {
   display: flex; 
   flex-direction: row;
@@ -44,10 +48,18 @@ $grey: #d3d3d3;
 
 .nav-link1 {
   color: #fff;
+  text-decoration: none;
 }
 
 .nav-link2 {
   color: $black;
+  text-decoration: none;
+}
+
+.logo {
+  border: 2px solid $orange;
+  color: $orange; 
+  padding: 0 5px;
 }
 
 .nav-links :hover {
