@@ -1,8 +1,61 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
-.nav_container {
-  background-color: #272a31;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-.nav1 {
-  background-color: azure;
+.nav_container {
+  display: none;
+}
+
+.nav_container > ul {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row-reverse;
+  border: none;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .nav_container {
+    background-color: #272a31;
+  }
+  .nav_container > ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 12em;
+    gap: 40px;
+    margin-bottom: 0;
+  }
+  .nav-link1 {
+    color: #fff;
+  }
+  .nav-link2 {
+    color: #272a31;
+  }
+  .nav-links :hover {
+    color: #fff;
+  }
+  .nav1 {
+    background-color: #272a31;
+  }
+  .nav2 {
+    margin-top: 30px;
+    background-color: #fff;
+  }
+  .nav2-item {
+    color: #272a31;
+  }
+  .nav-icons {
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+  }
 }/*# sourceMappingURL=main.css.map */

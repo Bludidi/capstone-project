@@ -4,10 +4,72 @@ $orange: #ec5242;
 $black: #272a31;
 $grey: #d3d3d3; 
 
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.nav_container {
+  display: none;
+}
+
+.nav_container > ul {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row-reverse;
+  border: none;
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  
 .nav_container {
   background-color: $black;
 }
 
+.nav_container > ul {
+  display: flex; 
+  flex-direction: row;
+  list-style-type: none;
+  padding-right: 12em;
+  gap: 40px;
+  margin-bottom: 0;
+}
+
+.nav-link1 {
+  color: #fff;
+}
+
+.nav-link2 {
+  color: $black;
+}
+
+.nav-links :hover {
+  color: #fff;
+}
+
 .nav1 {
-  background-color: azure;
+  background-color: $black;
+}
+
+.nav2 {
+  margin-top: 30px;
+  background-color: #fff;
+}
+
+.nav2-item  {
+  color: $black;
+}
+
+.nav-icons {
+  z-index: 9;
+  width: 20px;
+  height: 20px;
+}
 }
