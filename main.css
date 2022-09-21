@@ -79,6 +79,7 @@ h1 {
   margin: auto;
   display: block;
   width: 3em;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 768px) {
