@@ -64,8 +64,25 @@ h1 {
   height: 80vh;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #fff;
 }
 
+.home2 > p {
+  text-align: center;
+  padding-top: 5%;
+  z-index: 2;
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.line {
+  width: 50px;
+  height: auto;
+  z-index: 3;
+  margin: auto;
+  display: block;
+  width: 3em;
+}
 @media screen and (min-width: 768px) {
   
 .nav_container {
