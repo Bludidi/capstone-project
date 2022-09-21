@@ -28,7 +28,7 @@ h1 {
   background-color: #fff;
 }
 
-.home {
+.home-top {
   background-image: url("assets/images/Concert-crowd.jpg");
   width: 100vw;
   height: 80vh;
@@ -48,13 +48,19 @@ h1 {
   margin: 0 0 0 20%;
   padding-top: 15%;
   color: #ec5242;
-  font-weight: 900;
-  line-height: 200%;
-  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 22px rgb(255, 51, 0), 0 0 42px rgb(255, 0, 21),0 0 42px #0fa;
+  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 20px rgb(255, 38, 0), 0 0 42px rgb(255, 153, 0), 0 0 42px rgb(244, 247, 246);
 }
 
 .home-text h3 {
   font-size: 3em;
+}
+
+.home2 {
+  background-image: url("assets/images/background2.jpg");
+  width: 100vw;
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -103,7 +109,7 @@ h1 {
     width: 20px;
     height: 20px;
   }
-  .home {
+  .home-top {
     margin-top: 75px;
     height: 86vh;
     background-repeat: no-repeat;
@@ -112,5 +118,8 @@ h1 {
   .overlay {
     margin-top: 75px;
     height: 86vh;
+  }
+  .home2 {
+    height: 60vh;
   }
 }/*# sourceMappingURL=main.css.map */
