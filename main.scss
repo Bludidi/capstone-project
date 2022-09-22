@@ -61,7 +61,7 @@ h1 {
 .home2 {
   background-image: url('assets/images/background2.jpg');
   width: 100vw;
-  height: 80vh;
+  height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
@@ -88,7 +88,7 @@ h1 {
 .card-box {
   display: flex;
   flex-direction: column;
-  margin: 10px;
+  margin: 30px 10px 0 10px;
   align-items: center;
   gap: 20px;
 }
@@ -197,12 +197,26 @@ img {
 }
 
 .home2 {
-  height: 60vh;
+  height: 70vh;
 }
 
 .card-box {
   display: flex;
   flex-direction: row;
+  width: 100vw;
+  align-content: center;
+  padding: 0 10vw;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 350px;
+  background-color: rgba(39, 42, 49, 0.8);
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
 }
 
 }
