@@ -84,6 +84,48 @@ h1 {
   width: 3em;
   margin-top: 10px;
 }
+
+.card-box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  align-items: center;
+  gap: 20px;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  background-color: rgba(39, 42, 49, 0.8);
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+
+h6 {
+  color: $orange;
+}
+
+.box-p {
+  padding-left: 20px;
+}
+
+.box-p > p {
+  font-size: 0.9em;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.icon {
+  width: 75px;
+  height: 50px;
+  margin: 20px;
+}
+
 @media screen and (min-width: 768px) {
   
 .nav_container {
@@ -156,6 +198,11 @@ h1 {
 
 .home2 {
   height: 60vh;
+}
+
+.card-box {
+  display: flex;
+  flex-direction: row;
 }
 
 }
