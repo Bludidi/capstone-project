@@ -61,10 +61,12 @@ h1 {
 .home2 {
   background-image: url('assets/images/background2.jpg');
   width: 100vw;
-  height: 85vh;
+  height:fit-content;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  padding-bottom: 100PX;
+
 }
 
 .home2 > p {
@@ -72,7 +74,7 @@ h1 {
   padding-top: 5%;
   z-index: 2;
   margin: 0;
-  font-size: 1.8em;
+  // font-size: 1.8em;
 }
 
 .line {
@@ -124,6 +126,18 @@ img {
   width: 75px;
   height: 50px;
   margin: 20px;
+}
+
+.no-display {
+  display: none;
+  // font-size: 2em;
+}
+
+.join-btn {
+  background-color: $orange;
+  color: #fff;
+  padding: 30px;
+  border: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -197,7 +211,7 @@ img {
 }
 
 .home2 {
-  height: 70vh;
+  height:fit-content;
 }
 
 .card-box {
@@ -217,6 +231,18 @@ img {
   align-items: center;
   padding: 10px;
   gap: 10px;
+}
+
+.no-display {
+  display: block;
+  font-size: 0.8em;
+  text-decoration:underline;
+}
+
+.join-btn {
+  display: none;
+  align-content: center;
+  margin: 60px 15% 0 15%;
 }
 
 }
