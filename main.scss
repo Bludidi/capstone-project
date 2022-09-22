@@ -6,13 +6,15 @@ $grey: #d3d3d3;
 
 * {
   box-sizing: border-box;
-  padding: 0;
+  // padding: 0;
   font-family: 'Lato', sans-serif;
   // overflow-x: hidden;
 }
 
 html {
   margin: 0 auto;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -40,7 +42,6 @@ h1 {
   background-image: url('assets/images/Concert-crowd.jpg');
   width: 100vw;
   height: fit-content;
-  // padding-bottom: 100px;
   margin-top: 50px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,7 +61,10 @@ h1 {
   width: 100vw;
   height: fit-content;
   padding-bottom: 100px;
+  // padding-right: 30px;
   margin-top: 50px;
+  align-items: center;
+  justify-content: center;
 }
 
 .home-text {
@@ -72,15 +76,39 @@ h1 {
 
 .home-p {
   border: 2px solid $grey;
-  width: 95vw;
+  width: 80vw;
   align-content: center;
-  margin: 20px;
+  margin: 0 0 0 10%;
   padding: 25px;
   font-weight:600;
+  color: $black;
+}
+
+.home-p2 {
+  width: 80vw;
+  align-content: center;
+  margin: 0 0 0 10%;
+  padding: 25px;
+  font-weight:600;
+  color: $black;
+}
+
+.about-p2 {
+  width: 80vw;
+  align-content: center;
+  margin: 0 0 0 10%;
+  padding: 25px;
+  font-weight:400;
+  color: $black;
+}
+
+span {
+  font-size: 2em;
+  font-weight: 700;
 }
 
 .about-text {
-  text-shadow:none;
+  text-shadow: none;
 }
 
 .home-text h3 {
@@ -135,6 +163,9 @@ h1 {
   gap: 10px 0 0 0;
 }
 
+.card-box :hover {
+  border: 2px solid $grey;
+}
 
 h6 {
   color: $orange;
@@ -174,6 +205,40 @@ img {
 
 .btn-div {
   background-color: none;
+}
+
+footer {
+  background-color: $black;
+  width: 100vw;
+  height: 200px;
+  color: $grey;
+  text-align: center;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+  padding-left: 110px;
+}
+
+.foot-p {
+  display: none;
+}
+
+.sponsor {
+  display: flex;
+  gap: 20px;
+}
+
+.sponsor > img {
+  width: 60px;
+  height: 60px;
+}
+
+#sp1 {
+  width: 90px;
+}
+
+#sp2 {
+  width: 90px;
 }
 
 @media screen and (min-width: 768px) {
@@ -236,14 +301,25 @@ img {
 
 .home-top {
   margin-top: 75px;
-  height: 86vh;
+  width: 100vw;
+  height: fit-content;
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .overlay {
   margin-top: 75px;
-  height: 86vh;
+  height: fit-content;
+  padding-bottom: 100px;
+}
+
+.home-p {
+  border: 2px solid $grey;
+  width: 50vw;
+  align-content: center;
+  margin: 0 0 0 10%;
+  padding: 25px;
+  font-weight:600;
 }
 
 .home2 {
@@ -277,6 +353,15 @@ img {
 
 .join-btn {
   display: none;
+}
+
+footer {
+  background-color: $black;
+  width: 100vw;
+  height: 200px;
+  color: $grey;
+  text-align: center;
+  padding-top: 100px;
 }
 
 }
