@@ -6,9 +6,14 @@ $grey: #d3d3d3;
 
 * {
   box-sizing: border-box;
-  margin: 0;
   padding: 0;
-  font-family: 'Lato', sans-serif;}
+  font-family: 'Lato', sans-serif;
+  // overflow-x: hidden;
+}
+
+html {
+  margin: 0 auto;
+}
 
 h1 {
   font-size: 60px;
@@ -34,8 +39,18 @@ h1 {
 .home-top {
   background-image: url('assets/images/Concert-crowd.jpg');
   width: 100vw;
-  height: 80vh;
+  height: fit-content;
+  // padding-bottom: 100px;
   margin-top: 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+}
+
+.page-about {
+  background-image: url('assets/images/Concert-crowd.jpg');
+  width: 100vw;
+  height: fit-content;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -43,19 +58,37 @@ h1 {
 .overlay {
   background-color: rgba(211, 211, 211, 0.8);
   width: 100vw;
-  height: 80vh;
+  height: fit-content;
+  padding-bottom: 100px;
   margin-top: 50px;
 }
 
 .home-text {
-  margin: 0 0 0 20%;
+  margin: 0 0 0 10%;
   padding-top: 15%;
   color: #ec5242;
   text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 20px rgb(255, 38, 0), 0 0 42px rgb(255, 153, 0),0 0 42px rgb(244, 247, 246);
 }
 
+.home-p {
+  border: 2px solid $grey;
+  width: 95vw;
+  align-content: center;
+  margin: 20px;
+  padding: 25px;
+  font-weight:600;
+}
+
+.about-text {
+  text-shadow:none;
+}
+
 .home-text h3 {
   font-size: 3em;
+}
+
+.about-text h3 {
+  font-size: 2em;
 }
 
 .home2 {
@@ -73,7 +106,6 @@ h1 {
   padding-top: 5%;
   z-index: 2;
   margin: 0;
-  // font-size: 1.8em;
 }
 
 .line {
@@ -97,15 +129,16 @@ h1 {
 .box {
   display: flex;
   flex-direction: row;
-  width: 90%;
   background-color: rgba(39, 42, 49, 0.8);
   align-items: center;
   padding: 10px;
-  gap: 10px;
+  gap: 10px 0 0 0;
 }
+
 
 h6 {
   color: $orange;
+  font-size: 0.9em;
 }
 
 .box-p {
@@ -229,7 +262,7 @@ img {
   display: flex;
   flex-direction: column;
   width: 90%;
-  height: 350px;
+  height: 430px;
   background-color: rgba(39, 42, 49, 0.8);
   align-items: center;
   padding: 10px;
