@@ -23,13 +23,19 @@ h1 {
   display: none;
 }
 
+.navbar {
+  display: none;
+}
+
 .menu {
-  display: flex;
-  flex-direction: row-reverse;
+  position: fixed;
+  display: block;
+  float: left;
   border: none;
+  margin: 15px 0 0 15px;
   width: 25px;
   height: 25px;
-  background-color: #fff;
+  cursor: pointer;
 }
 
 .home-top {
@@ -38,7 +44,7 @@ h1 {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
-  margin-top: 50px;
+  margin-top: 0;
   background-repeat: no-repeat;
   background-size: cover;
   align-content: center;
@@ -61,7 +67,8 @@ h1 {
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 100px;
-  margin-top: 50px;
+  padding-right: 30px;
+  margin-top: 0;
   align-items: center;
   justify-content: center;
 }
@@ -127,6 +134,7 @@ span {
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  padding-right: 40px;
   padding-bottom: 100PX;
 }
 
@@ -166,6 +174,10 @@ span {
 
 .card-box :hover {
   border: 2px solid #d3d3d3;
+}
+
+.no-hover:hover {
+  border: none;
 }
 
 h6 {
@@ -277,7 +289,7 @@ footer {
     background-color: #272a31;
   }
   .nav2 {
-    margin-top: 30px;
+    margin-top: 24px;
     background-color: #fff;
   }
   .nav2-item {
@@ -289,8 +301,9 @@ footer {
     height: 20px;
   }
   .home-top {
-    margin-top: 75px;
+    margin-top: 50px;
     width: 100vw;
+    margin-top: 50px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -298,7 +311,7 @@ footer {
     background-size: cover;
   }
   .overlay {
-    margin-top: 75px;
+    margin-top: 50px;
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
@@ -349,5 +362,11 @@ footer {
     color: #d3d3d3;
     text-align: center;
     padding-top: 100px;
+  }
+  .foot-p {
+    display: block;
+  }
+  .sponsor {
+    display: none;
   }
 }/*# sourceMappingURL=main.css.map */

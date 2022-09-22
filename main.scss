@@ -2,13 +2,11 @@
 
 $orange: #ec5242;
 $black: #272a31;
-$grey: #d3d3d3; 
+$grey: #d3d3d3;
 
 * {
   box-sizing: border-box;
-  // padding: 0;
   font-family: 'Lato', sans-serif;
-  // overflow-x: hidden;
 }
 
 html {
@@ -26,23 +24,30 @@ h1 {
   display: none;
 }
 
-.nav_container > ul {
+.nav_container>ul {
+  display: none;
+}
+
+.navbar {
   display: none;
 }
 
 .menu {
-  display: flex;
-  flex-direction: row-reverse;
+  position: fixed;
+  display: block;
+  float: left;
   border: none;
+  margin: 15px 0 0 15px;
   width: 25px;
   height: 25px;
-  background-color: #fff;
+  cursor: pointer;
 }
+
 .home-top {
   background-image: url('assets/images/Concert-crowd.jpg');
   width: 100vw;
   height: fit-content;
-  margin-top: 50px;
+  margin-top: 0;
   background-repeat: no-repeat;
   background-size: cover;
   align-content: center;
@@ -61,8 +66,8 @@ h1 {
   width: 100vw;
   height: fit-content;
   padding-bottom: 100px;
-  // padding-right: 30px;
-  margin-top: 50px;
+  padding-right: 30px;
+  margin-top: 0;
   align-items: center;
   justify-content: center;
 }
@@ -71,7 +76,7 @@ h1 {
   margin: 0 0 0 10%;
   padding-top: 15%;
   color: #ec5242;
-  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 20px rgb(255, 38, 0), 0 0 42px rgb(255, 153, 0),0 0 42px rgb(244, 247, 246);
+  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 20px rgb(255, 38, 0), 0 0 42px rgb(255, 153, 0), 0 0 42px rgb(244, 247, 246);
 }
 
 .home-p {
@@ -80,7 +85,7 @@ h1 {
   align-content: center;
   margin: 0 0 0 10%;
   padding: 25px;
-  font-weight:600;
+  font-weight: 600;
   color: $black;
 }
 
@@ -89,7 +94,7 @@ h1 {
   align-content: center;
   margin: 0 0 0 10%;
   padding: 25px;
-  font-weight:600;
+  font-weight: 600;
   color: $black;
 }
 
@@ -98,7 +103,7 @@ h1 {
   align-content: center;
   margin: 0 0 0 10%;
   padding: 25px;
-  font-weight:400;
+  font-weight: 400;
   color: $black;
 }
 
@@ -122,14 +127,15 @@ span {
 .home2 {
   background-image: url('assets/images/background2.jpg');
   width: 100vw;
-  height:fit-content;
+  height: fit-content;
   background-repeat: no-repeat;
   background-size: cover;
   color: #fff;
+  padding-right: 40px;
   padding-bottom: 100PX;
 }
 
-.home2 > p {
+.home2>p {
   text-align: center;
   padding-top: 5%;
   z-index: 2;
@@ -167,6 +173,10 @@ span {
   border: 2px solid $grey;
 }
 
+.no-hover:hover {
+  border: none;
+}
+
 h6 {
   color: $orange;
   font-size: 0.9em;
@@ -176,7 +186,7 @@ h6 {
   padding-left: 20px;
 }
 
-.box-p > p {
+.box-p>p {
   font-size: 0.9em;
 }
 
@@ -228,7 +238,7 @@ footer {
   gap: 20px;
 }
 
-.sponsor > img {
+.sponsor>img {
   width: 60px;
   height: 60px;
 }
@@ -242,126 +252,135 @@ footer {
 }
 
 @media screen and (min-width: 768px) {
-  
-.nav_container {
-  background-color: $black;
-}
 
-.menu {
-  display: none;
-}
+  .nav_container {
+    background-color: $black;
+  }
 
-.nav_container > ul {
-  display: flex; 
-  flex-direction: row;
-  list-style-type: none;
-  padding-right: 12em;
-  gap: 40px;
-  margin-bottom: 0;
-}
+  .menu {
+    display: none;
+  }
 
-.nav-link1 {
-  color: #fff;
-  text-decoration: none;
-}
+  .nav_container>ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    padding-right: 12em;
+    gap: 40px;
+    margin-bottom: 0;
+  }
 
-.nav-link2 {
-  color: $black;
-  text-decoration: none;
-}
+  .nav-link1 {
+    color: #fff;
+    text-decoration: none;
+  }
 
-.logo {
-  border: 2px solid $orange;
-  color: $orange; 
-  padding: 0 5px;
-}
+  .nav-link2 {
+    color: $black;
+    text-decoration: none;
+  }
 
-.nav-links :hover {
-  color: #fff;
-}
+  .logo {
+    border: 2px solid $orange;
+    color: $orange;
+    padding: 0 5px;
+  }
 
-.nav1 {
-  background-color: $black;
-}
+  .nav-links :hover {
+    color: #fff;
+  }
 
-.nav2 {
-  margin-top: 30px;
-  background-color: #fff;
-}
+  .nav1 {
+    background-color: $black;
+  }
 
-.nav2-item  {
-  color: $black;
-}
+  .nav2 {
+    margin-top: 24px;
+    background-color: #fff;
+  }
 
-.nav-icons {
-  z-index: 9;
-  width: 20px;
-  height: 20px;
-}
+  .nav2-item {
+    color: $black;
+  }
 
-.home-top {
-  margin-top: 75px;
-  width: 100vw;
-  height: fit-content;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+  .nav-icons {
+    z-index: 9;
+    width: 20px;
+    height: 20px;
+  }
 
-.overlay {
-  margin-top: 75px;
-  height: fit-content;
-  padding-bottom: 100px;
-}
+  .home-top {
+    margin-top: 50px;
+    width: 100vw;
+    margin-top: 50px;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
-.home-p {
-  border: 2px solid $grey;
-  width: 50vw;
-  align-content: center;
-  margin: 0 0 0 10%;
-  padding: 25px;
-  font-weight:600;
-}
+  .overlay {
+    margin-top: 50px;
+    height: fit-content;
+    padding-bottom: 100px;
+  }
 
-.home2 {
-  height:fit-content;
-}
+  .home-p {
+    border: 2px solid $grey;
+    width: 50vw;
+    align-content: center;
+    margin: 0 0 0 10%;
+    padding: 25px;
+    font-weight: 600;
+  }
 
-.card-box {
-  display: flex;
-  flex-direction: row;
-  width: 100vw;
-  align-content: center;
-  padding: 0 10vw;
-}
+  .home2 {
+    height: fit-content;
+  }
 
-.box {
-  display: flex;
-  flex-direction: column;
-  width: 90%;
-  height: 430px;
-  background-color: rgba(39, 42, 49, 0.8);
-  align-items: center;
-  padding: 10px;
-  gap: 10px;
-}
+  .card-box {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-content: center;
+    padding: 0 10vw;
+  }
 
-.no-display {
-  display: block;
-  font-size: 0.8em;
-  text-decoration:underline;
-}
+  .box {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 430px;
+    background-color: rgba(39, 42, 49, 0.8);
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  }
 
-.join-btn {
-  display: none;
-}
+  .no-display {
+    display: block;
+    font-size: 0.8em;
+    text-decoration: underline;
+  }
 
-footer {
-  background-color: $black;
-  width: 100vw;
-  height: 200px;
-  color: $grey;
-  text-align: center;
-  padding-top: 100px;
-}
+  .join-btn {
+    display: none;
+  }
+
+  footer {
+    background-color: $black;
+    width: 100vw;
+    height: 200px;
+    color: $grey;
+    text-align: center;
+    padding-top: 100px;
+  }
+
+  .foot-p {
+    display: block;
+  }
+
+  .sponsor {
+    display: none;
+  }
 
 }
