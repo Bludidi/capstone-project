@@ -259,6 +259,10 @@ img {
   background-color: none;
 }
 
+.artists {
+  flex-direction: column;
+}
+
 footer {
   background-color: $black;
   width: 100vw;
@@ -276,7 +280,7 @@ font-size: 0.8em;
 }
 
 .spon-h {
-
+font-weight: 700;
 }
 
 .sponsor {
@@ -438,7 +442,8 @@ hr {
     display: flex;
     flex-direction: column;
     width: 90%;
-    height: 430px;
+    min-height: 300px;
+    height: fit-content;
     background-color: rgba(39, 42, 49, 0.8);
     align-items: center;
     padding: 10px;
@@ -453,6 +458,11 @@ hr {
 
   .join-btn {
     display: none;
+  }
+
+  .artists {
+    display: table;
+  
   }
 
   footer {
