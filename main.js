@@ -1,4 +1,4 @@
-// menu display 
+// menu display
 
 const menu = document.querySelector('.menu');
 const menuOption = document.querySelector('.menu_opt');
@@ -21,7 +21,7 @@ menu.addEventListener('click', show);
 closeMenu.addEventListener('click', close);
 menuItems.addEventListener('click', close);
 
-// Artits section 
+// Artits section
 
 const artists = [
   {
@@ -65,17 +65,16 @@ const artists = [
     message: 'Adele will be showcasing her great talent in this event',
     image: './assets/images/adele.jpg',
   },
-]; 
+];
 
 // projecting artist information into html
 
 const artistCards = artists.map((artist) => `
-<div id="card1" class="cards">
-            <div id="card_img" class="card left_align"><img class="card_img" src="${artist.image}" alt="artist card"></div>
-              <div id="txt_img" class="artist-name"><h3>${artist.name}</h3>
-                <p class="p1">${artist.bio}</p>
-                <br>
-                <p class="p2">${artist.message}</p>
+<div id="card1" class="cards d-flex pt-5 ps-5">
+            <div id="card_img" class="card img-div me-4"><img class="card_img" src="${artist.image}" alt="artist card"></div>
+              <div id="txt_img" class="txt-div"><h5 class="card-h">${artist.name}</h5>
+                <p class="card-p1">${artist.bio}</p>
+                <p class="card-p2">${artist.message}</p>
             </div>
         </div>
 `);
@@ -87,7 +86,7 @@ const artistCards = artists.map((artist) => `
 
 const cardSection = document.querySelector('.artists');
 const parser = new DOMParser();
-artistCards.forEach((artistCard, index) => {
+artistCards.forEach((artistCard) => {
   const artistIndex = parser.parseFromString(artistCard, 'text/html').body.firstChild;
   cardSection.append(artistIndex);
 });

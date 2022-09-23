@@ -176,7 +176,7 @@ span {
   background-size: cover;
   color: #fff;
   padding-right: 40px;
-  padding-bottom: 100PX;
+  padding-bottom: 100px;
 }
 
 .home2 > p {
@@ -210,7 +210,7 @@ span {
   background-color: rgba(39, 42, 49, 0.8);
   align-items: center;
   padding: 10px;
-  gap: 10px 0 0 0;
+  gap: 10px;
 }
 
 .card-box :hover {
@@ -302,6 +302,40 @@ hr {
 
 #sp3 {
   width: 90px;
+}
+
+.card_img {
+  width: 100px;
+  height: 150px;
+  background-size: cover;
+}
+
+.img-div {
+  min-width: 100px;
+  height: 100px;
+}
+
+.txt-div {
+  width: 300px;
+}
+
+.card-h {
+  color: rgb(39, 42, 49);
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.card-p1 {
+  color: #ec5242;
+  font-weight: 400;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.card-p2 {
+  color: rgb(39, 42, 49);
+  font-weight: 400;
+  font-size: 0.8em;
 }
 
 @media screen and (min-width: 768px) {

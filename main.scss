@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
 
 $orange: #ec5242;
@@ -173,7 +174,7 @@ span {
   background-size: cover;
   color: #fff;
   padding-right: 40px;
-  padding-bottom: 100PX;
+  padding-bottom: 100px;
 }
 
 .home2>p {
@@ -207,7 +208,7 @@ span {
   background-color: rgba(39, 42, 49, 0.8);
   align-items: center;
   padding: 10px;
-  gap: 10px 0 0 0;
+  gap: 10px;
 }
 
 .card-box :hover {
@@ -301,6 +302,40 @@ hr {
   width: 90px;
 }
 
+.card_img {
+  width: 100px;
+  height: 150px;
+  background-size: cover;
+}
+
+.img-div {
+  min-width: 100px;
+  height: 100px;
+}
+
+.txt-div {
+  width: 300px;
+}
+
+.card-h {
+  color: $black;
+  font-size: 0.9em;
+  font-weight: 700;
+}
+
+.card-p1 {
+  color: $orange;
+  font-weight: 400;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.card-p2 {
+  color: $black;
+  font-weight: 400;
+  font-size: 0.8em;
+}
+
 @media screen and (min-width: 768px) {
 
   .nav_container {
@@ -311,7 +346,7 @@ hr {
     display: none;
   }
 
-  .nav_container>ul {
+  .nav_container > ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
