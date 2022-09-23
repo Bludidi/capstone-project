@@ -50,7 +50,7 @@ h1 {
   backdrop-filter: blur(10px);
   z-index: 11;
   width: 100%;
-  // height: 100vh;
+  height: 100vh;
   padding: 20px 20px 0 30px;
   position: fixed;
 }
@@ -310,6 +310,15 @@ hr {
   min-width: 90px;
 }
 
+.cards {
+  display: flex;
+  flex-direction: column;
+}
+
+.all-cards {
+  display: flex;
+}
+
 .card_img {
   width: 100px;
   height: 150px;
@@ -450,6 +459,15 @@ hr {
     gap: 10px;
   }
 
+  .artists {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+  }
+
+.all-cards {
+  display: flex;
+}
   .no-display {
     display: block;
     font-size: 0.8em;
@@ -458,11 +476,6 @@ hr {
 
   .join-btn {
     display: none;
-  }
-
-  .artists {
-    display: table;
-  
   }
 
   footer {
