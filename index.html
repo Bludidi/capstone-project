@@ -43,9 +43,19 @@
       </ul>
 
     </nav>
+    <div class="menu_opt">
+      <input type="button" name="close" value="X" class="close_menu" id="exit">
+      <ul class="menu_list">
+        <li class="menu_items"><a href="#content">BTR Concert</a></li>
+        <li class="menu_items"><a href="#about-page">About</a></li>
+        <li class="menu_items"><a href="#program">Program</a></li>
+        <li class="menu_items"><a href="#">Join</a></li>
+        <li class="menu_items"><a href="#">Sponsors</a></li>
+      </ul>
+    </div>
   </header>
 
-  <section>
+  <section id="content">
     <div class="home-top">
       <div class="overlay">
         <div class="home-text">
@@ -63,7 +73,7 @@
       </div>
     </div>
 
-    <div class="home2 container-fluid">
+    <div class="home2 container-fluid" id="program">
       <p>Main Program <img class="line" src="assets/images/line_icon5.png" alt="line"> </p>
       <div class="card-box container-fluid">
         <div class="box box1 container-fluid">
@@ -104,12 +114,14 @@
           </div>
         </div>
         <div class="box box4 container-fluid">
-          <div class="icon icon4 no-hover"><img class="no-hover" src="assets/images/donation_icon.svg" alt="dollar coin icon"></div>
+          <div class="icon icon4 no-hover"><img class="no-hover" src="assets/images/donation_icon.svg"
+              alt="dollar coin icon"></div>
           <div class="head6 no-hover">
             <h6 class="no-hover">Pledges <br /> & <br /> Donations</h6>
           </div>
           <div class="box-p no-hover">
-            <p class="no-hover">Most important part of the Back To Roots Global Concert is donations that will help eliminate some of
+            <p class="no-hover">Most important part of the Back To Roots Global Concert is donations that will help
+              eliminate some of
               global challenges through charities.</p>
           </div>
         </div>
@@ -119,9 +131,10 @@
     </div>
   </section>
 
-  <section class="speakers"></section>
+  <!-- guest artists -->
+  <section class="artists"></section>
 
-  <section class="about">
+  <section class="about" id="about-page">
     <div class="page-about">
       <div class="overlay">
         <div class="home-text about-text">
@@ -141,6 +154,8 @@
   </section>
 
   <footer class="foot">
+    <p class="">SPONSORS</p>
+    <hr>
     <p class="foot-p">2012 Back To Roots. Some rights Reserved. </p>
     <div class="sponsor">
       <img id="sp1" src="assets/images/moster.png" alt="monster energy drink logo">
