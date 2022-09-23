@@ -267,24 +267,24 @@ footer {
   height: 200px;
   color: #d3d3d3;
   text-align: center;
-  padding-top: 70px;
   justify-content: center;
   align-items: center;
-  padding-left: 80px;
+  padding: 30px 18% 0 18%;
 }
 
 .foot-p {
-  display: none;
+  margin-top: 20px;
+  font-size: 0.8em;
 }
 
 .sponsor {
   display: flex;
-  gap: 40px;
+  gap: 5%;
 }
 
 hr {
   color: #ec5242;
-  width: 300px;
+  width: 100%;
 }
 
 .sponsor > img {
@@ -293,15 +293,15 @@ hr {
 }
 
 #sp1 {
-  width: 120px;
+  min-width: 120px;
 }
 
 #sp2 {
-  width: 110px;
+  min-width: 110px;
 }
 
 #sp3 {
-  width: 90px;
+  min-width: 90px;
 }
 
 .card_img {
@@ -316,7 +316,7 @@ hr {
 }
 
 .txt-div {
-  width: 300px;
+  width: 65%;
 }
 
 .card-h {
@@ -450,7 +450,7 @@ hr {
   .foot-p {
     display: block;
   }
-  .sponsor {
+  .hide {
     display: none;
   }
 }/*# sourceMappingURL=main.css.map */

@@ -71,12 +71,15 @@ const artists = [
 
 const artistCards = artists.map((artist) => `
 <div id="card1" class="cards d-flex pt-5 ps-5">
-            <div id="card_img" class="card img-div me-4"><img class="card_img" src="${artist.image}" alt="artist card"></div>
-              <div id="txt_img" class="txt-div"><h5 class="card-h">${artist.name}</h5>
-                <p class="card-p1">${artist.bio}</p>
-                <p class="card-p2">${artist.message}</p>
-            </div>
-        </div>
+  <div id="card_img" class="card img-div me-4">
+    <img class="card_img" src="${artist.image}" alt="artist card">
+  </div>
+  <div id="txt_img" class="txt-div pe-3">
+    <h5 class="card-h">${artist.name}</h5>
+    <p class="card-p1">${artist.bio}</p>
+    <p class="card-p2">${artist.message}</p>
+  </div>
+</div>
 `);
 
 // adjusting image sizes
