@@ -255,48 +255,80 @@ img {
 
 footer {
   display: flex;
-  background-color: #f7f3f3;
+  flex-direction: row;
   width: 100vw;
   height: 200px;
   color: #d3d3d3;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  padding: 30px 18% 0 18%;
-  gap: 200px;
+  gap: 20px;
+  padding-top: 30px;
 }
 
 .foot-p {
-  margin-top: 20px;
   font-size: 0.8em;
 }
 
 .btr {
-  max-width: 100px;
+  width: 75px;
+  height: 50px;
+}
+
+.btr-div {
+  display: flex;
+  padding-left: 10%;
+}
+
+.foot-div {
+  color: rgb(39, 42, 49);
+  padding-top: 30px;
+  font-size: 1.2em;
 }
 
 .spon-h {
   font-weight: 700;
+  color: #d3d3d3;
+}
+
+.spon-p-div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .sponsor {
   display: flex;
+  flex-direction: column;
   gap: 5%;
 }
 
 hr {
   color: #ec5242;
-  width: 100%;
+  width: 30px;
+  height: 5px;
+  margin: 0 0 20px 0;
 }
 
 .partners {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   background-color: rgb(39, 42, 49);
   width: 100vw;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.sponsor > img {
+.line1 {
+  padding: 0 40% 0 40%;
+}
+
+.sponsor1 > img {
   width: 60px;
   height: 60px;
+  margin: 20px;
 }
 
 #sp1 {
@@ -467,6 +499,19 @@ hr {
   .join-btn {
     display: none;
   }
+  .sponsor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(39, 42, 49);
+    width: 100vw;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
   footer {
     background-color: #f7f3f3;
     width: 100vw;
@@ -477,5 +522,18 @@ hr {
   }
   .foot-p {
     color: rgb(39, 42, 49);
+  }
+  .btr {
+    width: 75px;
+    height: 50px;
+  }
+  .btr-div {
+    display: flex;
+    padding-left: 25%;
+  }
+  .foot-div {
+    color: rgb(39, 42, 49);
+    padding-top: 30px;
+    font-size: 1.2em;
   }
 }/*# sourceMappingURL=main.css.map */
