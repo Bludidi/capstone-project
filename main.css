@@ -21,7 +21,7 @@ h1 {
   display: none;
 }
 
-.nav_container>ul {
+.nav_container > ul {
   display: none;
 }
 
@@ -174,7 +174,7 @@ span {
   padding-bottom: 100px;
 }
 
-.home2>p {
+.home2 > p {
   text-align: center;
   padding-top: 5%;
   z-index: 2;
@@ -224,7 +224,7 @@ h6 {
   padding-left: 20px;
 }
 
-.box-p>p {
+.box-p > p {
   font-size: 0.9em;
 }
 
@@ -285,7 +285,7 @@ hr {
   width: 100%;
 }
 
-.sponsor>img {
+.sponsor > img {
   width: 60px;
   height: 60px;
 }
@@ -364,7 +364,7 @@ hr {
     display: none;
   }
 
-  .nav_container>ul {
+  .nav_container > ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
