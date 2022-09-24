@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
-
 * {
   box-sizing: border-box;
   font-family: "Lato", sans-serif;
@@ -43,7 +42,7 @@ h1 {
   display: none;
   background-color: rgba(39, 42, 49, 0.2);
   -webkit-backdrop-filter: blur(10px);
-  backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
   z-index: 11;
   width: 100%;
   height: 100vh;
@@ -181,6 +180,7 @@ span {
 }
 
 .line {
+  width: 50px;
   height: auto;
   z-index: 3;
   margin: auto;
@@ -358,11 +358,9 @@ hr {
   .nav_container {
     background-color: rgb(39, 42, 49);
   }
-
   .menu {
     display: none;
   }
-
   .nav_container > ul {
     display: flex;
     flex-direction: row;
@@ -371,61 +369,49 @@ hr {
     gap: 40px;
     margin-bottom: 0;
   }
-
   .nav-link1 {
     color: #fff;
     text-decoration: none;
   }
-
   .nav-link2 {
     color: rgb(39, 42, 49);
     text-decoration: none;
   }
-
   .logo {
     border: 2px solid #ec5242;
     color: #ec5242;
     padding: 0 5px;
   }
-
   .nav-links :hover {
     color: #fff;
   }
-
   .nav1 {
     background-color: rgb(39, 42, 49);
   }
-
   .nav2 {
     margin-top: 24px;
     background-color: #fff;
   }
-
   .nav2-item {
     color: rgb(39, 42, 49);
   }
-
   .nav-icons {
     z-index: 9;
     width: 20px;
     height: 20px;
   }
-
   .home-top {
     margin-top: 50px;
     width: 100vw;
-    margin-top: 50px;
     height: auto;
     background-repeat: no-repeat;
     background-size: cover;
   }
-
   .overlay {
     margin-top: 50px;
     height: auto;
     padding-bottom: 100px;
   }
-
   .home-p {
     border: 2px solid #d3d3d3;
     width: 50vw;
@@ -434,11 +420,9 @@ hr {
     padding: 25px;
     font-weight: 600;
   }
-
   .home2 {
     height: auto;
   }
-
   .card-box {
     display: flex;
     flex-direction: row;
@@ -446,7 +430,6 @@ hr {
     align-content: center;
     padding: 0 10vw;
   }
-
   .box {
     display: flex;
     flex-direction: column;
@@ -458,27 +441,22 @@ hr {
     padding: 10px;
     gap: 10px;
   }
-
   .artists {
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 10px;
   }
-
   .all-cards {
     display: flex;
   }
-
   .no-display {
     display: block;
     font-size: 0.8em;
     text-decoration: underline;
   }
-
   .join-btn {
     display: none;
   }
-
   footer {
     background-color: rgb(39, 42, 49);
     width: 100vw;
@@ -487,14 +465,10 @@ hr {
     text-align: center;
     padding-top: 100px;
   }
-
   .foot-p {
     display: block;
   }
-
   .hide {
     display: none;
   }
-}
-
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
