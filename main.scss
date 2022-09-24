@@ -267,6 +267,16 @@ footer {
   padding-top: 30px;
 }
 
+.foot1 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 200px;
+  background-color: $black;
+  gap: 20px;
+  padding-top: 30px;
+}
+
 .foot-p {
   font-size: 0.8em;
 }
@@ -283,6 +293,12 @@ footer {
 
 .foot-div {
   color: $black;
+  padding-top: 30px;
+  font-size: 1.2em;
+}
+
+.foot1-div {
+  color: $grey;
   padding-top: 30px;
   font-size: 1.2em;
 }
@@ -544,8 +560,20 @@ hr {
     padding-top: 100px;
   }
 
+  .foot1 {
+    background-color: $black;
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+  }
+
   .foot-p {
     color: $black;
+  }
+
+  .foot1-p {
+    color: $grey;
   }
 
   .btr {
@@ -560,6 +588,12 @@ hr {
   
   .foot-div {
     color: $black;
+    padding-top: 30px;
+    font-size: 1.2em;
+  }
+
+  .foot1-div {
+    color: $grey;
     padding-top: 30px;
     font-size: 1.2em;
   }

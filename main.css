@@ -263,6 +263,16 @@ footer {
   padding-top: 30px;
 }
 
+.foot1 {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 200px;
+  background-color: rgb(39, 42, 49);
+  gap: 20px;
+  padding-top: 30px;
+}
+
 .foot-p {
   font-size: 0.8em;
 }
@@ -279,6 +289,12 @@ footer {
 
 .foot-div {
   color: rgb(39, 42, 49);
+  padding-top: 30px;
+  font-size: 1.2em;
+}
+
+.foot1-div {
+  color: #d3d3d3;
   padding-top: 30px;
   font-size: 1.2em;
 }
@@ -520,8 +536,18 @@ hr {
     text-align: center;
     padding-top: 100px;
   }
+  .foot1 {
+    background-color: rgb(39, 42, 49);
+    width: 100vw;
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+  }
   .foot-p {
     color: rgb(39, 42, 49);
+  }
+  .foot1-p {
+    color: #d3d3d3;
   }
   .btr {
     width: 75px;
@@ -533,6 +559,11 @@ hr {
   }
   .foot-div {
     color: rgb(39, 42, 49);
+    padding-top: 30px;
+    font-size: 1.2em;
+  }
+  .foot1-div {
+    color: #d3d3d3;
     padding-top: 30px;
     font-size: 1.2em;
   }
