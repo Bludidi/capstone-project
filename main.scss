@@ -259,7 +259,8 @@ img {
 }
 
 footer {
-  background-color: $black;
+  display: flex;
+  background-color: #f7f3f3;
   width: 100vw;
   height: 200px;
   color: $grey;
@@ -267,11 +268,16 @@ footer {
   justify-content: center;
   align-items: center;
   padding: 30px 18% 0 18%;
+  gap: 200px;
 }
 
 .foot-p {
   margin-top: 20px;
   font-size: 0.8em;
+}
+
+.btr {
+max-width: 100px;
 }
 
 .spon-h {
@@ -286,6 +292,11 @@ footer {
 hr {
   color: #ec5242;
   width: 100%;
+}
+
+.partners {
+  background-color: $black;
+  width: 100vw;
 }
 
 .sponsor > img {
@@ -483,7 +494,7 @@ hr {
   }
 
   footer {
-    background-color: $black;
+    background-color: #f7f3f3;
     width: 100vw;
     height: 200px;
     color: $grey;
@@ -492,10 +503,6 @@ hr {
   }
 
   .foot-p {
-    display: block;
-  }
-
-  .hide {
-    display: none;
+    color: $black;
   }
 }
