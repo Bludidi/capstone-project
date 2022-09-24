@@ -67,7 +67,7 @@ const artists = [
   },
 ];
 
-// projecting artist information into html
+// Creating HTML structure
 
 const artistCards = artists.map((artist) => `
 <div id="card1" class="cards pt-5 ps-5">
@@ -83,10 +83,7 @@ const artistCards = artists.map((artist) => `
 </div>
 `);
 
-// adjusting image sizes
-
-// const artistImage = artists.image;
-
+// Projecting information into HTML structure
 
 const cardSection = document.querySelector('.artists');
 const parser = new DOMParser();
