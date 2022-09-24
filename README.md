@@ -20,7 +20,9 @@ This is a capstone project, a website for a global concert.
 - In a mobile version a menu is created with Javascript. 
 
 ### Live Link 
+
 https://bludidi.github.io/capstone-project/
+
 
 ### Prerequisites
 - Text editor 
