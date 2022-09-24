@@ -25,7 +25,7 @@ h1 {
   display: none;
 }
 
-.nav_container>ul {
+.nav_container > ul {
   display: none;
 }
 
@@ -185,7 +185,6 @@ span {
 }
 
 .line {
-  width: 50px;
   height: auto;
   z-index: 3;
   margin: auto;
@@ -368,7 +367,7 @@ hr {
     display: none;
   }
 
-  .nav_container>ul {
+  .nav_container > ul {
     display: flex;
     flex-direction: row;
     list-style-type: none;
