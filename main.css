@@ -27,6 +27,17 @@ h1 {
   display: none;
 }
 
+.logo-small {
+  width: 50px;
+  height: 25px;
+}
+
+#small-logo {
+  width: 50px;
+  height: 25px;
+  margin-right: 105px;
+}
+
 .menu {
   position: fixed;
   display: block;
@@ -439,6 +450,14 @@ hr {
     border: 2px solid #ec5242;
     color: #ec5242;
     padding: 0 5px;
+  }
+  .logo-small {
+    width: 50px;
+    height: 25px;
+  }
+  #small-logo {
+    width: 50px;
+    height: 25px;
   }
   .nav-links :hover {
     color: #fff;
