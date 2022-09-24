@@ -313,6 +313,7 @@ hr {
 .cards {
   display: flex;
   flex-direction: column;
+  padding-bottom: 20px;
 }
 
 .all-cards {
@@ -321,8 +322,15 @@ hr {
 
 .card_img {
   width: 100px;
-  height: 150px;
+  height: 100px;
   background-size: cover;
+  border: 1px solid $orange;
+  box-shadow: 10px 10px 12px $orange;
+}
+
+.img-div :hover {
+  width: 7em;
+  height: 7em;
 }
 
 .img-div {
@@ -345,12 +353,14 @@ hr {
   font-weight: 400;
   font-size: 0.8em;
   font-style: italic;
+  line-height: 18px;
 }
 
 .card-p2 {
   color: $black;
   font-weight: 400;
   font-size: 0.8em;
+  line-height: 15px;
 }
 
 @media screen and (min-width: 768px) {
