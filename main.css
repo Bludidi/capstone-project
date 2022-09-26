@@ -569,6 +569,7 @@ hr {
   .nav1 {
     background-color: rgb(39, 42, 49);
   }
+
   .nav2 {
     margin-top: 24px;
     background-color: #fff;
@@ -672,6 +673,7 @@ hr {
     font-weight: 900;
     text-align: center;
   }
+
   .about2-txt {
     width: 80%;
     font-weight: 600;
@@ -737,6 +739,7 @@ hr {
     color: rgb(39, 42, 49);
     font-size: 0.8em;
   }
+  
   .btr {
     width: 75px;
     height: 50px;
