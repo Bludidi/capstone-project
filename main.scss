@@ -40,11 +40,16 @@ h1 {
 #small-logo {
   width: 50px;
   height: 25px;
-  margin-right: 105px;
+}
+
+
+.see-link {
+  display: none;
+  color: $grey;
 }
 
 .menu {
-  position: fixed;
+  // position: fixed;
   display: block;
   float: left;
   border: none;
@@ -141,6 +146,17 @@ h1 {
   color: $black;
 }
 
+.about-p {
+  border: 2px solid $grey;
+  width: 65vw;
+  align-content: center;
+  margin: 0 0 0 16%;
+  padding: 25px;
+  font-weight: 600;
+  color: $black;
+  text-align: center;
+}
+
 .home-p2 {
   width: 80vw;
   align-content: center;
@@ -157,6 +173,7 @@ h1 {
   padding: 25px;
   font-weight: 400;
   color: $black;
+  text-align: center;
 }
 
 span {
@@ -164,16 +181,26 @@ span {
   font-weight: 700;
 }
 
+h2 {
+  margin: 0 0 0 10%;
+  padding-top: 15%;
+  color: #ec5242;
+  font-size: 0.8em;
+  font-weight: 900;
+
+}
+
 .about-text {
-  text-shadow: none;
+  margin: 0 0 0 10%;
+  padding-top: 15%;
+  color: #ec5242;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
 }
 
 .home-text h3 {
   font-size: 3em;
-}
-
-.about-text h3 {
-  font-size: 2em;
 }
 
 .home2 {
@@ -283,7 +310,7 @@ footer {
   flex-direction: row;
   width: 100vw;
   height: 200px;
-  background-color: $black;
+  background-color: $grey;
   gap: 20px;
   padding-top: 30px;
 }
@@ -309,9 +336,9 @@ footer {
 }
 
 .foot1-div {
-  color: $grey;
+  color: $black;
   padding-top: 30px;
-  font-size: 1.2em;
+  font-size: 0.9em;
 }
 
 .spon-h {
@@ -442,19 +469,62 @@ hr {
 .about2-logo {
  width: 80%;
  margin-bottom: 20px; 
- padding-left: 25%;
+ height: 150px;
+ margin-left: 0;
+//  padding-left: 15%;
  border: 2px solid $grey;
- padding-top: 10px;
- padding-bottom: 10px;
+ padding: 10px 20px 10px 30px;
+}
+
+.about2-p {
+  width: 80%;
+  margin-bottom: 20px; 
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
 }
 
 .about-line {
-  width: 10%;
+  width: 50px;
   height: 5px;;
 }
 
 .about2-logo-img {
-  width: 60%;
+  width: 100%;
+  height: 60%;
+  margin-top: 30px;
+}
+
+.about2-img1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  width: 80%;
+  padding-bottom: 30px;
+}
+
+.overlay1 {
+  background-color: rgba(236, 82, 66, 0.5);
+  width: 100%;
+  height: 250px;
+  z-index: 5;
+  color: #fff;
+  text-align: center;
+  padding-top: 75px;
+}
+
+.img1 {
+background-image: url('assets/images/concert1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.img2 {
+  background-image: url('assets/images/concert2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
@@ -491,14 +561,11 @@ hr {
     padding: 0 5px;
   }
 
-  .logo-small {
-    width: 50px;
-    height: 25px;
-  }
 
   #small-logo {
     width: 50px;
     height: 25px;
+    margin-right: 500px;
   }
 
   .nav-links :hover {
@@ -591,6 +658,55 @@ hr {
     display: none;
   }
 
+  .about2-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 16px;
+  }
+
+  #about-head {
+    margin-left: 0;
+  }
+
+  .about-text {
+    margin: 0;
+    padding-top: 0;
+    color: #ec5242;
+    font-size: 3em;
+    font-weight: 900;
+    text-align: center;
+  }
+
+  .about2-txt {
+    width: 80%; 
+    font-weight: 600 ;
+    font-size: 1.4em;
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .about2-txt2 {
+    font-weight: 900;
+    font-size: 0.8em;
+  }
+
+  .about2-logo {
+  width: 30%;
+  }
+
+  .about2-img1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 80%;
+    padding-bottom: 30px;
+  }
+
   .sponsor {
     display: flex;
     flex-direction: row;
@@ -613,11 +729,12 @@ hr {
   }
 
   .foot1 {
-    background-color: $black;
+    background-color: $grey;
     width: 100vw;
     height: 200px;
     text-align: center;
     padding-top: 100px;
+
   }
 
   .foot-p {
@@ -625,7 +742,8 @@ hr {
   }
 
   .foot1-p {
-    color: $grey;
+    color: $black;
+    font-size: 0.8em;
   }
 
   .btr {
@@ -648,5 +766,10 @@ hr {
     color: $grey;
     padding-top: 30px;
     font-size: 1.2em;
+  }
+
+  .see-link {
+    display: block;
+    color: $grey;
   }
 }
