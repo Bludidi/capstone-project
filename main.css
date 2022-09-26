@@ -43,6 +43,7 @@ h1 {
 }
 
 .menu {
+  position: fixed;
   display: block;
   float: left;
   border: none;
