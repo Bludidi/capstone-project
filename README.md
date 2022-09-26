@@ -21,6 +21,8 @@ This is a capstone project, a website for a global concert.
 
 ### Live Link 
 
+https://bludidi.github.io/capstone-project/
+
 
 ### Prerequisites
 - Text editor 
@@ -44,4 +46,5 @@ Give a ⭐️ if you like this project!
 Hat tip to Creative Commons license of the design and Cindy Shin for inspiration.
 
 ###📝 License
-This project is MIT licensed.
+This project is [MIT](./LICENSE) licensed.
+

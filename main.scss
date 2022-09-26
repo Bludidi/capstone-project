@@ -1,9 +1,13 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe&family=Crete+Round:ital@0;1&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,600;8..144,700;8..144,800;8..144,900;8..144,1000&display=swap');
+
+$orange: #ec5242;
+$black: rgb(39, 42, 49);
+$grey: #d3d3d3;
 
 * {
   box-sizing: border-box;
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 html {
@@ -41,7 +45,7 @@ h1 {
 
 .see-link {
   display: none;
-  color: #d3d3d3;
+  color: $grey;
 }
 
 .menu {
@@ -58,7 +62,6 @@ h1 {
 .menu_opt {
   display: none;
   background-color: rgba(39, 42, 49, 0.2);
-  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
   z-index: 11;
   width: 100%;
@@ -68,7 +71,7 @@ h1 {
 }
 
 .menu_opt a {
-  color: rgb(39, 42, 49);
+  color: $black;
   text-decoration: none;
   font-size: 1.2em;
   font-weight: 700;
@@ -98,7 +101,7 @@ h1 {
 }
 
 .home-top {
-  background-image: url("assets/images/Concert-crowd.jpg");
+  background-image: url('assets/images/Concert-crowd.jpg');
   width: 100vw;
   height: auto;
   margin-top: 0;
@@ -108,7 +111,7 @@ h1 {
 }
 
 .page-about {
-  background-image: url("assets/images/Concert-crowd.jpg");
+  background-image: url('assets/images/Concert-crowd.jpg');
   width: 100vw;
   height: auto;
   background-repeat: no-repeat;
@@ -134,23 +137,23 @@ h1 {
 }
 
 .home-p {
-  border: 2px solid #d3d3d3;
+  border: 2px solid $grey;
   width: 80vw;
   align-content: center;
   margin: 0 0 0 10%;
   padding: 25px;
   font-weight: 600;
-  color: rgb(39, 42, 49);
+  color: $black;
 }
 
 .about-p {
-  border: 2px solid #d3d3d3;
+  border: 2px solid $grey;
   width: 65vw;
   align-content: center;
   margin: 0 0 0 16%;
   padding: 25px;
   font-weight: 600;
-  color: rgb(39, 42, 49);
+  color: $black;
   text-align: center;
 }
 
@@ -160,7 +163,7 @@ h1 {
   margin: 0 0 0 10%;
   padding: 25px;
   font-weight: 600;
-  color: rgb(39, 42, 49);
+  color: $black;
 }
 
 .about-p2 {
@@ -169,7 +172,7 @@ h1 {
   margin: 0 0 0 10%;
   padding: 25px;
   font-weight: 400;
-  color: rgb(39, 42, 49);
+  color: $black;
   text-align: center;
 }
 
@@ -200,7 +203,7 @@ h2 {
 }
 
 .home2 {
-  background-image: url("assets/images/background2.jpg");
+  background-image: url('assets/images/background2.jpg');
   width: 100vw;
   height: auto;
   background-repeat: no-repeat;
@@ -244,7 +247,7 @@ h2 {
 }
 
 .card-box :hover {
-  border: 2px solid #d3d3d3;
+  border: 2px solid $grey;
 }
 
 .no-hover:hover {
@@ -252,7 +255,7 @@ h2 {
 }
 
 h6 {
-  color: #ec5242;
+  color: $orange;
   font-size: 0.9em;
 }
 
@@ -280,7 +283,7 @@ img {
 }
 
 .join-btn {
-  background-color: #ec5242;
+  background-color: $orange;
   color: #fff;
   padding: 30px;
   border: none;
@@ -296,7 +299,7 @@ footer {
   flex-direction: row;
   width: 100vw;
   height: 200px;
-  color: #d3d3d3;
+  color: $grey;
   gap: 20px;
   padding-top: 30px;
 }
@@ -306,7 +309,7 @@ footer {
   flex-direction: row;
   width: 100vw;
   height: 200px;
-  background-color: #d3d3d3;
+  background-color: $grey;
   gap: 20px;
   padding-top: 30px;
 }
@@ -326,13 +329,13 @@ footer {
 }
 
 .foot-div {
-  color: rgb(39, 42, 49);
+  color: $black;
   padding-top: 30px;
   font-size: 1.2em;
 }
 
 .foot1-div {
-  color: rgb(39, 42, 49);
+  color: $black;
   padding-top: 30px;
   font-size: 0.9em;
 }
@@ -366,7 +369,7 @@ hr {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: rgb(39, 42, 49);
+  background-color: $black;
   width: 100vw;
   height: auto;
   padding-top: 20px;
@@ -409,8 +412,8 @@ hr {
   width: 100px;
   height: 100px;
   background-size: cover;
-  border: 1px solid #ec5242;
-  box-shadow: 10px 10px 12px #ec5242;
+  border: 1px solid $orange;
+  box-shadow: 10px 10px 12px $orange;
 }
 
 .img-div :hover {
@@ -428,13 +431,13 @@ hr {
 }
 
 .card-h {
-  color: rgb(39, 42, 49);
+  color: $black;
   font-size: 0.9em;
   font-weight: 700;
 }
 
 .card-p1 {
-  color: #ec5242;
+  color: $orange;
   font-weight: 400;
   font-size: 0.8em;
   font-style: italic;
@@ -442,7 +445,7 @@ hr {
 }
 
 .card-p2 {
-  color: rgb(39, 42, 49);
+  color: $black;
   font-weight: 400;
   font-size: 0.8em;
   line-height: 15px;
@@ -467,7 +470,7 @@ hr {
   margin-bottom: 20px;
   height: 150px;
   margin-left: 0;
-  border: 2px solid #d3d3d3;
+  border: 2px solid $grey;
   padding: 10px 20px 10px 30px;
 }
 
@@ -511,20 +514,20 @@ hr {
 }
 
 .img1 {
-  background-image: url("assets/images/concert1.jpg");
+  background-image: url('assets/images/concert1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .img2 {
-  background-image: url("assets/images/concert2.jpg");
+  background-image: url('assets/images/concert2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 @media screen and (min-width: 768px) {
   .nav_container {
-    background-color: rgb(39, 42, 49);
+    background-color: $black;
   }
 
   .menu {
@@ -546,13 +549,13 @@ hr {
   }
 
   .nav-link2 {
-    color: rgb(39, 42, 49);
+    color: $black;
     text-decoration: none;
   }
 
   .logo {
-    border: 2px solid #ec5242;
-    color: #ec5242;
+    border: 2px solid $orange;
+    color: $orange;
     padding: 0 5px;
   }
 
@@ -567,7 +570,7 @@ hr {
   }
 
   .nav1 {
-    background-color: rgb(39, 42, 49);
+    background-color: $black;
   }
 
   .nav2 {
@@ -576,7 +579,7 @@ hr {
   }
 
   .nav2-item {
-    color: rgb(39, 42, 49);
+    color: $black;
   }
 
   .nav-icons {
@@ -600,7 +603,7 @@ hr {
   }
 
   .home-p {
-    border: 2px solid #d3d3d3;
+    border: 2px solid $grey;
     width: 50vw;
     align-content: center;
     margin: 0 0 0 10%;
@@ -706,7 +709,7 @@ hr {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    background-color: rgb(39, 42, 49);
+    background-color: $black;
     width: 100vw;
     height: auto;
     padding-top: 20px;
@@ -717,13 +720,13 @@ hr {
     background-color: #f7f3f3;
     width: 100vw;
     height: 200px;
-    color: #d3d3d3;
+    color: $grey;
     text-align: center;
     padding-top: 100px;
   }
 
   .foot1 {
-    background-color: #d3d3d3;
+    background-color: $grey;
     width: 100vw;
     height: 200px;
     text-align: center;
@@ -731,11 +734,11 @@ hr {
   }
 
   .foot-p {
-    color: rgb(39, 42, 49);
+    color: $black;
   }
 
   .foot1-p {
-    color: rgb(39, 42, 49);
+    color: $black;
     font-size: 0.8em;
   }
 
@@ -750,20 +753,19 @@ hr {
   }
 
   .foot-div {
-    color: rgb(39, 42, 49);
+    color: $black;
     padding-top: 30px;
     font-size: 1.2em;
   }
 
   .foot1-div {
-    color: #d3d3d3;
+    color: $grey;
     padding-top: 30px;
     font-size: 1.2em;
   }
 
   .see-link {
     display: block;
-    color: #d3d3d3;
+    color: $grey;
   }
 }
-/*# sourceMappingURL=main.css.map */
