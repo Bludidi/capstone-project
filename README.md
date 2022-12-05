@@ -16,7 +16,7 @@ This is a capstone project, a website for a global concert.
 - Use of CSS Grid and Flexbox.
 - I used HTML sematic tags.
 - Used HTML5 form tags.
-- I used Javascript for artists esction to load dynamically.
+- I used Javascript for artists section to load dynamically.
 - In a mobile version a menu is created with Javascript. 
 
 ### Live Link 
