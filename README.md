@@ -29,7 +29,7 @@ https://bludidi.github.io/capstone-project/
 ### Authors
 👤 Brian Buntu Ludidi
 
-GitHub: (@Bludidi)[https://github.com/Bludidi]
+GitHub: [@Bludidi](https://github.com/Bludidi)
 
 
 🤝 Contributing
