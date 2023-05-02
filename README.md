@@ -21,7 +21,7 @@ This is a capstone project, a website for a global concert.
 
 ### Live Link 
 
-https://bludidi.github.io/capstone-project/
+[Click here](https://bludidi.github.io/capstone-project/)
 
 
 ### Prerequisites
