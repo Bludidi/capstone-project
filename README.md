@@ -41,7 +41,7 @@ This is a capstone project, a website for a global concert.
 
 <a href="https://www.linkedin.com/in/brian-ludidi/">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=social&logo=linkedin&logoColor=blue" alt="LinkedIn">
-
+</a>
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
