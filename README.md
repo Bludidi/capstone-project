@@ -21,7 +21,7 @@ This is a capstone project, a website for a global concert.
 
 ### Live Link 
 
-https://bludidi.github.io/capstone-project/
+[Click here](https://bludidi.github.io/capstone-project/)
 
 
 ### Prerequisites
@@ -29,10 +29,19 @@ https://bludidi.github.io/capstone-project/
 - GitHub 
 
 ### Authors
-👤 Brian Buntu Ludidi
+![my profile](https://avatars.githubusercontent.com/u/86472119?s=40&v=4) **Brian Buntu Ludidi**
 
-GitHub: @Bludidi [https://github.com/Bludidi]
+<a href="https://github.com/Bludidi">
+  <img src="https://img.shields.io/github/followers/Bludidi?label=Follow%20%40Bludidi&style=social" alt="GitHub Follow">
+</a> <br />
 
+<a href="https://twitter.com/BB_Ludidi">
+  <img src="https://img.shields.io/twitter/follow/BB_Ludidi?label=Follow%20%40BB_Ludidi&style=social" alt="Twitter Follow">
+</a> <br />
+
+<a href="https://www.linkedin.com/in/brian-ludidi/">
+  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=social&logo=linkedin&logoColor=blue" alt="LinkedIn">
+</a>
 
 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
